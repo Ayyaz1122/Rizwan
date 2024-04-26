@@ -4,7 +4,7 @@ from django.shortcuts import render
 from . import counter
 
 def home(request):
-    return render(request, 'index.html', {'key1': 'I am coming from Python code'})
+    return render(request, 'index.html', {'key1': 'I am coming from Python not code'})
 
 def result(request):
     article = request.GET ['article']
